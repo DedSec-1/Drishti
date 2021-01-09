@@ -41,7 +41,7 @@ git lfs track "*.csv"
 ```
 - Clone this repository using command.
 ```
-git clone "https://github.com/DedSec-1/Idiot-Boxx"
+git clone "https://github.com/DedSec-1/Drishti"
 ```
 - Open anaconda Prompt and type the following commands to create a new environment and activate it. 
 ```
@@ -61,11 +61,13 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
-If everything worked so far then you will be able to see something similar to this LOCALHOST:PORT or 0.0.0.0:8080.
+If everything worked so far then you will be able to see something similar to : LOCALHOST:PORT or 0.0.0.0:8080 or http://127.0.0.1:5000/, etc.
 - Copy and paste the link in the terminal on the browser.
 - The output should look like the one given below.
 
-## The repository is open for suggestions. Feel free to open a pull request for improving model accuracy or any other improvements.
+<img src= https://github.com/DedSec-1/Drishti/blob/main/static/assets/Screenshot%20(435).png>
+
+### _The repository is open for suggestions. Feel free to open a pull request for improving model accuracy or any other improvements.
 
 ### References -
 #### [MediaPipe](https://pypi.org/project/mediapipe/)
