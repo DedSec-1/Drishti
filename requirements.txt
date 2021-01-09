@@ -1,14 +1,6 @@
-<<<<<<< HEAD
+numpy
 opencv_python
 mediapipe
-pyttsx3
-numpy
-Flask
-=======
-opencv_python
-mediapipe
-pyttsx3
-numpy
-Flask
->>>>>>> 213a78a9a87989c560404434cfe281ffa1373e11
 tensorflow==2.3.0
+pyttsx3
+Flask
