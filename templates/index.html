@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html>
 
 <head>
@@ -24,4 +25,32 @@
   <h2 style="color:#FC4445;text-align:center; font-size: 10;word-spacing:5px;">(P.S.) -  There might be some anomaly in detection of hand gestures due to the custom deep learning model. The suggestions to improve the model are welcome.</h2>
 </body>
 
+=======
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='indexx.css') }}">
+</head>
+
+<body>
+<body bgcolor="#3FEEE6">
+  <div>
+    <h1 style="font-family: Georgia; color:#CAFAFE;text-align:center; font-size: 35;word-spacing:15px;letter-spacing:5px;">LIVE VIDEO
+      DEMONSTRATION - Team DedSec</h1>
+  </div>
+  <br><br>
+  <br><br>
+  <br>
+
+  <h2>
+    <img src="{{url_for('static', filename='assets/1.png')}}" align="left" width=300px height=450px />
+    <img src="{{url_for('static', filename='assets/2.png')}}" align="right" width=300px height=450px />
+    <center>
+      <img id="bg" src="{{ url_for('video_feed') }}">
+    </center>
+  </h2>
+  <h2 style="color:#FC4445;text-align:center; font-size: 10;word-spacing:5px;">(P.S.) -  There might be some anomaly in detection of hand gestures due to the custom deep learning model. The suggestions to improve the model are welcome.</h2>
+</body>
+
+>>>>>>> 213a78a9a87989c560404434cfe281ffa1373e11
 </html>
