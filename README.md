@@ -62,7 +62,7 @@ pip install -r requirements.txt
 python main.py
 ```
 If everything worked so far then you will be able to see something similar to : LOCALHOST:PORT or 0.0.0.0:8080 or http://127.0.0.1:5000/, etc.
-- Copy and paste the link in the terminal on the browser.
+- Copy and paste the link in the browser.
 - The output should look like the one given below.
 
 <img src= https://github.com/DedSec-1/Drishti/blob/main/static/assets/Screenshot%20(435).png>
