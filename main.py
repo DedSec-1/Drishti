@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from flask import Flask, render_template, Response
 from openCV import VideoCamera
 
@@ -56,5 +55,4 @@ def video_feed():
 
 if __name__ == "__main__":
     # defining server ip address and port
->>>>>>> 213a78a9a87989c560404434cfe281ffa1373e11
     app.run(debug=True,threaded=True)
