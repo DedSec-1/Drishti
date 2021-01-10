@@ -3,7 +3,8 @@
 ## [![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/kritika-srivastava/Random-Password-Generator/blob/master/LICENSE)![Project Status](https://img.shields.io/badge/ProjectStatus-Completed-orange)[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 ![Python Badge](https://img.shields.io/badge/Python-3.8-success)![Dependency](https://img.shields.io/badge/Dependencies-Tensorflow%20%7C%20Flask%20%7C%20Mediapipe%20%7C%20OpenCV-critical)
 
-### ----------------------------------Place for GIF (upload in static/assets/ )---------------------------------
+
+![GIF](https://github.com/DedSec-1/Drishti/blob/main/static/assets/Drishti.gif?raw=true)
 Our project Drishti is basically a gesture to speech convertor. The general definition of gesture recognition is the ability of a computer to understand gestures and execute commands based on those gestures.
 
 The reason for naming this project _Drishti_ is because we made the use of __"Drishti"__ of PCs and Computer Vision to recognize the hand gestures of the subject (in our case a person) and predict the cooresponding alphabet. We have also made the use of text to speech convertor to provide a voice enabled output.
@@ -65,7 +66,7 @@ If everything worked so far then you will be able to see something similar to : 
 - Copy and paste the link in the browser.
 - The output should look like the one given below.
 
-<img src= https://github.com/DedSec-1/Drishti/blob/main/static/assets/Screenshot%20(435).png>
+<img src= "https://github.com/DedSec-1/Drishti/blob/main/static/assets/Screenshot%20(435).png?raw=true">
 
 ### _The repository is open for suggestions. Feel free to open a pull request for improving model accuracy or any other improvements.
 

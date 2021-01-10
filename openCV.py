@@ -78,9 +78,7 @@ class VideoCamera(object):
             if results.multi_hand_landmarks:
                 for hand_landmarks in results.multi_hand_landmarks:
 
-                    mp_drawing.draw_landmarks(
-                        image, hand_landmarks, mp_hands.HAND_CONNECTIONS
-                    )
+                    
                     tup_x = (
                         hand_landmarks.landmark[mp_hands.HandLandmark.WRIST].x
                         * image_width,
@@ -219,6 +217,10 @@ class VideoCamera(object):
                     imgs = np.array([img])
                     imgs = imgs.reshape(-1, 28, 28, 1)
                     model_output = model.predict(imgs)
+                    
+                    mp_drawing.draw_landmarks(
+                        image, hand_landmarks, mp_hands.HAND_CONNECTIONS
+                    )
                     cv2.rectangle(
                         image,
                         (int(x), int(y)),
