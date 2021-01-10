@@ -32,13 +32,6 @@ CLASSIFICATION = {
     24: "Y",
 }
 
-
-def speak(text):
-    engine = pyttsx3.init()
-    engine.say(text)
-    engine.runAndWait()
-
-
 model = load_model("model.h5")
 font = cv2.FONT_HERSHEY_SIMPLEX
 
