@@ -4,7 +4,8 @@
 ![Python Badge](https://img.shields.io/badge/Python-3.8-success)![Dependency](https://img.shields.io/badge/Dependencies-Tensorflow%20%7C%20Flask%20%7C%20Mediapipe%20%7C%20OpenCV-critical)
 
 
-![GIF](https://github.com/DedSec-1/Drishti/blob/main/static/assets/Drishti.gif?raw=true)
+![GIF](https://github.com/DedSec-1/Drishti/blob/main/static/assets/Drishti.gif?raw=true) <br>
+
 Our project Drishti is basically a gesture to speech convertor. The general definition of gesture recognition is the ability of a computer to understand gestures and execute commands based on those gestures.
 
 The reason for naming this project _Drishti_ is because we made the use of __"Drishti"__ of PCs and Computer Vision to recognize the hand gestures of the subject (in our case a person) and predict the cooresponding alphabet. We have also made the use of text to speech convertor to provide a voice enabled output.
